@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.home.designPattern;
+
+/**
+ * @author ashwi
+ *
+ */
+public class SingletonBrowser {
+
+}

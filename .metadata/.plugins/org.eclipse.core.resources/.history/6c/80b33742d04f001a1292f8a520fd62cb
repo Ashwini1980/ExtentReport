@@ -1,0 +1,34 @@
+package com.home.test.testcases;
+
+import org.testng.annotations.Test;
+
+import com.home.base.TestBase;
+import com.home.extentReport.ExtentTestManager;
+
+public class SearchProduct extends TestBase{
+	
+	String envFile;
+	String testdataFile;
+	
+	public SearchProduct() {	
+		
+		loadProperties(envFile, testdataFile);
+		initBrowser();
+		
+		
+		envFile = "D:\\Automation\\workplace\\workingFinal\\TestingE2E\\src\\test\\resources\\properties\\Environment.properties";
+		testdataFile = "D:\\Automation\\workplace\\workingFinal\\TestingE2E\\src\\test\\resources\\properties\\TestData.properties";
+		
+		
+	}
+
+	@Test
+	public void searchProduct() {
+		
+		ExtentTestManager.getTest().info("Test Execution started");
+		driver.get(prop.getProperty("Browser"));
+		logger.info("Browser opened successfully.");
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+<h2>Methods run, sorted chronologically</h2><h3>&gt;&gt; means before, &lt;&lt; means after</h3><p/><br/><em>Suite</em><p/><small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table border="1">
+<tr><th>Time</th><th>Delta (ms)</th><th>Suite<br>configuration</th><th>Test<br>configuration</th><th>Class<br>configuration</th><th>Groups<br>configuration</th><th>Method<br>configuration</th><th>Test<br>method</th><th>Thread</th><th>Instances</th></tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:36:58</td>   <td>0</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test1.init()[pri:0, instance:com.home.testcases.Test1@9660f4e]">init</td> 
+  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:13</td>   <td>15558</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test1.init1()[pri:0, instance:com.home.testcases.Test1@9660f4e]">init1</td> 
+  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:25</td>   <td>26662</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test1.init1()[pri:0, instance:com.home.testcases.Test1@9660f4e]">init1</td> 
+  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:40</td>   <td>41677</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test1.init2()[pri:0, instance:com.home.testcases.Test1@9660f4e]">init2</td> 
+  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:55</td>   <td>56733</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="Test1.init2()[pri:0, instance:com.home.testcases.Test1@9660f4e]">init2</td> 
+  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:09</td>   <td>11234</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test1.quit()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&lt;&lt;quit</td> 
+<td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:24</td>   <td>26529</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test1.quit()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&lt;&lt;quit</td> 
+<td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:35</td>   <td>37357</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test1.quit()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&lt;&lt;quit</td> 
+<td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:37:50</td>   <td>52407</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test1.quit()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&lt;&lt;quit</td> 
+<td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:38:05</td>   <td>67469</td> <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td title="&lt;&lt;Test1.quit()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&lt;&lt;quit</td> 
+<td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+<tr bgcolor="85bdee">  <td>20/02/15 20:36:58</td>   <td>-121</td> <td title="&gt;&gt;Test1.setUp()[pri:0, instance:com.home.testcases.Test1@9660f4e]">&gt;&gt;setUp</td> 
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>  <td>main@868737467</td>   <td></td> </tr>
+</table>

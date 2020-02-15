@@ -1,0 +1,7 @@
+16:53:05,982  INFO TestBase:59 - Both Properties file loaded.
+16:53:05,999  INFO TestBase:69 - Loading the base class destination.
+16:53:11,587  INFO TestBase:28 - Chrome driver loaded.
+16:53:36,859  INFO TestBase:42 - Browser opened successfully.
+16:53:36,865  INFO TestBase:69 - Loading the base class destination.
+16:53:38,323  INFO TestBase:51 - Browser opened successfully.
+16:53:38,755  INFO TestBase:90 - Returned the File path as: D:\Automation\workplace\workingFinal\TestingE2E/Screenshots/searchProduct120200215045338.png

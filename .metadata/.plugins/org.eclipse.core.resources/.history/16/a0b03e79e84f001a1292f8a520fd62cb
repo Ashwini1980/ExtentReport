@@ -1,0 +1,39 @@
+package com.home.listener;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import com.aventstack.extentreports.AnalysisStrategy;
+
+
+public class ExtentITestListenerAdapter implements ITestListener {
+
+    public synchronized void onStart(ITestContext context) {
+        ExtentService.getInstance().setAnalysisStrategy(AnalysisStrategy.TEST);
+    }
+
+    public synchronized void onFinish(ITestContext context) {
+        ExtentService.getInstance().flush();
+    }
+
+    public synchronized void onTestStart(ITestResult result) {
+        ExtentTestManager.createMethod(result);
+    }
+
+    public synchronized void onTestSuccess(ITestResult result) {
+        ExtentTestManager.log(result);
+    }
+
+    public synchronized void onTestFailure(ITestResult result) {
+        ExtentTestManager.log(result);
+    }
+
+    public synchronized void onTestSkipped(ITestResult result) {
+        ExtentTestManager.log(result);
+    }
+
+    public synchronized void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+    }
+
+}

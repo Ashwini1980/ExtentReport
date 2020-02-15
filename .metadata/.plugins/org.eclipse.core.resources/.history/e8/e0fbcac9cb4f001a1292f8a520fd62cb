@@ -1,0 +1,13 @@
+package com.home.test.testcases;
+
+import org.testng.annotations.Test;
+
+public class SearchProduct {
+	
+	@Test
+	public void searchProduct() {
+		
+		
+	}
+
+}

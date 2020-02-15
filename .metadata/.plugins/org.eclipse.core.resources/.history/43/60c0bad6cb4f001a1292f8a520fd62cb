@@ -1,0 +1,19 @@
+package com.home.test.testcases;
+
+import org.testng.annotations.Test;
+
+import com.home.base.TestBase;
+import com.home.extentReport.ExtentTestManager;
+
+public class SearchProduct extends TestBase{
+	
+	
+	
+	@Test
+	public void searchProduct() {
+		
+		ExtentTestManager.getTest().info("Test Execution started")
+		
+	}
+
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="10.808" tests="5" errors="0" skipped="2" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\Java12\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Automation\workplace\workingFinal\ExtentReport4"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\workplace\workingFinal\ExtentReport4"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ashwi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Automation\Tools\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\Java12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Automation\Tools\apache-maven-3.5.4\bin;C:\Program Files\Java\Java12\bin;C:\Users\ashwi\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="D:\Automation\Tools\apache-maven-3.5.4\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="56.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\Automation\Tools\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ashwi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="user.name" value="ashwi"/>
+    <property name="java.class.path" value="D:\Automation\Tools\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -X"/>
+    <property name="java.home" value="C:\Program Files\Java\Java12"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="D:\Automation\Tools\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="init1" classname="com.home.testcases.Test1" time="0">
+    <skipped/>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 23223
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581790253.076][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 15, 2020 11:40:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581790257.254][WARNING]: Timed out connecting to Chrome, retrying...
+[1581790260.338][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="init1" classname="com.home.testcases.Test1" time="10.721">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.home.testcases.Test1.init1(Test1.java:52)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 12788
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581790268.118][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 15, 2020 11:41:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581790272.165][WARNING]: Timed out connecting to Chrome, retrying...
+[1581790275.132][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581790275.234][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="init2" classname="com.home.testcases.Test1" time="0">
+    <skipped/>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 41377
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581790282.938][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 15, 2020 11:41:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581790286.978][WARNING]: Timed out connecting to Chrome, retrying...
+[1581790289.901][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="init2" classname="com.home.testcases.Test1" time="10.806">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at com.home.testcases.Test1.init2(Test1.java:65)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 14662
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1581790297.854][WARNING]: Timed out connecting to Chrome, retrying...
+Feb 15, 2020 11:41:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1581790301.894][WARNING]: Timed out connecting to Chrome, retrying...
+[1581790304.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1581790305.016][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="searchOrder" classname="com.home.testcases.Test1" time="10.808"/>
+</testsuite>

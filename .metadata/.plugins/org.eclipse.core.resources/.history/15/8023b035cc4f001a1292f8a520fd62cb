@@ -1,0 +1,25 @@
+package com.home.test.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+
+import com.home.base.TestBase;
+import com.home.extentReport.ExtentTestManager;
+
+public class SearchProduct extends TestBase{
+	
+	
+	
+	public SearchProduct(WebDriver lDriver, String propFile1, String propFile2) {
+		super(lDriver, propFile1, propFile2);
+		
+	}
+
+	@Test
+	public void searchProduct() {
+		
+		ExtentTestManager.getTest().info("Test Execution started")
+		
+	}
+
+}
